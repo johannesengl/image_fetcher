@@ -3,11 +3,11 @@ require File.join([File.dirname(__FILE__),'lib','image-fetcher','version.rb'])
 spec = Gem::Specification.new do |s|
   s.name = 'image-fetcher'
   s.version = ImageFetcher::VERSION
-  s.author = 'Your Name Here'
-  s.email = 'your@email.address.com'
-  s.homepage = 'http://your.website.com'
+  s.author = 'Johannes'
+  s.email = 'hello@johannesengl.com'
+  s.homepage = 'http://johannesengl.com'
   s.platform = Gem::Platform::RUBY
-  s.summary = 'A description of your project'
+  s.summary = 'CLI APP for downloading images'
   s.files = `git ls-files`.split("
 ")
   s.require_paths << 'lib'
