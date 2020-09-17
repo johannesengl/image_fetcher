@@ -1,0 +1,5 @@
+= image-fetcher
+
+Generate this with
+    image-fetcher _doc
+After you have described your command line interface

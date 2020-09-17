@@ -1,0 +1,6 @@
+= image-fetcher
+
+Describe your project here
+
+:include:image-fetcher.rdoc
+
