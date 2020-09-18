@@ -1,6 +1,6 @@
 # Image Fetcher
 
-This app is a command line app. It takes as an input a path to a plain text file containing urls to images and and a path to a destination foloder for storing the downloaded images.
+This app is a command line app. It takes as an input a path to a plain text file containing urls to images and a path to a destination foloder for storing the downloaded images.
 
 ## Usage
 
