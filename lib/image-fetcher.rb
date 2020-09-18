@@ -1,6 +1,4 @@
 # frozen_string_literal: true
-
 require 'image-fetcher/version'
-
-# Add requires for other files you add to your project here, so
-# you just need to require this one file in your bin file
+require 'pry'
+require 'image-fetcher/image_download_service'
