@@ -28,8 +28,8 @@ class ImageDownloadService
     url = URI(url)
     raise Error, 'url was invalid' unless url.respond_to?(:open)
 
-    # Store files in different folders incase some images have same name.
-    FileUtils.mkdir_p "#{path_downloads}/#{url.hash}"
-    FileUtils.mv open(url), "#{path_downloads}/#{url.hash}/#{file_name}"
+    # Potential issue here incase of duplicate file names.
+    FileUtils.mkdir_p path_downloads.to_s
+    FileUtils.mv open(url), "#{path_downloads}/#{file_name}"
   end
 end
